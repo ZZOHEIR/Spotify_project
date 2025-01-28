@@ -5,3 +5,9 @@ plotly.express
 plotly.graph_objects
 sklearn
 scipy.spatial.distance
+seaborn
+matplotlib.pyplot
+nltk
+nltk.corpus 
+wordcloud
+sklearn
