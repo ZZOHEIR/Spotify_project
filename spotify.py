@@ -2,11 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from fuzzywuzzy import process
-import plotly.express as px
-import plotly.graph_objects as go
-from sklearn.preprocessing import LabelEncoder
-from scipy.spatial.distance import cosine
 
 data = pd.read_csv(r'C:\Users\Hp\Desktop\dataset\Spotify_project\data.csv')
 def find_song_from_data(song_name, data):
